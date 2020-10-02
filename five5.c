@@ -2,7 +2,7 @@
 int main ()
 
 {
-int odd=0,even=0,x=1;
+int odd=0,even=0,x=1;//declaring variables
 for(int i=1;i<=10;i++)
 
 {
@@ -14,7 +14,7 @@ if(x%2==0){
 }
 else{
     odd++;
-}
+}//end if
 
 }
 

@@ -9,15 +9,18 @@ for(int i=1;i<=10;i++)
 printf("Enter Number : ");
 scanf("%d",&x);
 
-if(x%2==0)
+if(x%2==0){
     even++;
-else
+}
+else{
     odd++;
-
+}
 
 }
 
 printf("Total Number of even is %d \n",even);
 printf("Total Number of odd is %d \n",odd);
+    
+    return 0;
 
 }
